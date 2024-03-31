@@ -1,0 +1,24 @@
+svg path {
+  fill: currentColor;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.8em;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+  color: #646cff;
+}
+button:hover svg path {
+  fill: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
